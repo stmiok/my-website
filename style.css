@@ -6,10 +6,13 @@ html {
   width: 100%;
 }
 
+/* -- main page background color -- */
 body {
   background-color:#d2b48c ;
 }
 
+
+/* -- header text and color -- */
 h1 .text-color {
   text-color:#d19d13;
   font-family: Futura ;
@@ -22,17 +25,23 @@ h1 .text-color {
   margin:auto;
 }
 
+
+/*-- header background and text color--*/
 .light-background {
   background-color:#ffebcd;
   color:#8b4513;
 }
 
+
+/* --text and list centering-- */
 header, div, h5,
 main, div, h2, h3, p, ul, li, .text-center {
   text-align: center;
   list-style-position: inside;
 }
 
+
+/*-- link styles and colors-- */
 a {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
@@ -42,3 +51,10 @@ a:link {color:blue;}
 a:visited {color:#8a388a; }
 a:hover {color: orange; }
 a:active {color: red; }
+
+
+/*-- padding for images--*/
+img {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
